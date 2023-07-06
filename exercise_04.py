@@ -6,8 +6,8 @@ Create a object called apple “pass the color variable as a parameter through o
 
 
 class fruit:
-    def __init__(self,color):
-        self.color=color
+    def __init__(self,col):
+        self.color=col
     def fruit_Color(self):
         print(f"Fruit clor is: {self.color}")
 
@@ -16,4 +16,3 @@ apple.fruit_Color()
 
 orange=fruit("orange")
 orange.fruit_Color()
-

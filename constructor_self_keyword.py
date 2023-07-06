@@ -10,7 +10,7 @@ class laptop:
         self.Processor=""
         self.Ram=""
     def refer_object(display):
-        print(f"Laptop price: {display.Price} and the processor: {display.Processor} total Ram of laptop: {display.Ram}")
+        print(f"Laptop price: {display.Price} and the processor is: {display.Processor} total Ram of laptop: {display.Ram}")
 
 HP=laptop()
 DELL=laptop()
