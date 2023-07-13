@@ -14,7 +14,7 @@ class laptop:
 
 HP=laptop()
 DELL=laptop()
-LENOVO=()
+
 
 HP.Price="50,000"
 HP.Processor="i3"
